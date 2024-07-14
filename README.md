@@ -1,1 +1,1 @@
-https://github.com/Ahmed-1101/ahmed2.git
+https://ahmed-1101.github.io/ahmed2/
