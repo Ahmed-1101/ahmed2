@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        form section1 label {
+            display: inline-block;
+            width: 8.7%;
+        }
+
+        form section2 label {
+            display: inline-block;
+            width: 6.8%;
+        }
+    </style> <!-- كود css بيعمل ستايل display:inline-block للسكشن فقط and width 9%--> <!-- ستايل للفورم واحد وبالتحديد اللي داخلها سكشن واد وسكشن اتنين في كل الليبل بتاعهم هيتعمل اتربيوت ستايل وهيتكتب فيه الكود اللي جوه البلوك -->
+</head>
+
+<body style="background-color:white;">
+    
+
+    <form>
+
+        <fieldset style="background-color:  rgb(200, 59, 59);border-radius: 3%;">
+            <legend style="background-color: rgb(0, 128, 206);font-size: 180%;">Personal Data</legend>
+
+            <fieldset style="background-color: rgb(253, 213, 89);border-radius: 5%;">
+
+                <legend style="background-color: rgb(0, 128, 206); font-size: 150%;">Your Name</legend>
+
+                <br><br><br><br>
+
+                
+                <section1>
+                    <label for="a1">First Name:</label>
+                    <!-- <textarea id="a1"  placeholder="FN" ></textarea> -->
+                    <!-- تاج بيظهر او بيخليك تكتب نص بس مبيرحش الباك اند بعن سبمت بوتم -->
+                    <input type="text" id="a1" placeholder="Ahmed" name="fName">
+                    <!-- اتربيوت نيم هوه اللي بيروح الباكاند -->
+                    <br><br>
+                    <label for="a2">Second Name:</label>
+                    <input type="text" id="a2" placeholder="Mahmoud" name="sName">
+                    <!-- atripute placeholder هوه اللي بيخليك تحط كلام شفاف في الانبت -->
+                    <br><br>
+                </section1>
+
+            </fieldset>
+
+
+
+
+
+            <section2>
+                <p></p>
+                    <label for="a3">Your Phone</label>
+                    <input type="number" id="a3" placeholder="01021716728"> 
+                <p></p>
+                    <label for="a4">Email</label>
+                    <input type="email" id="a4" placeholder="ahmed@gmail.com">
+                <p></p>
+                    <label for="a5"> Password</label>
+                    <input type="password" id="a5"> 
+                <p></p>
+                <label for="a6">rePassword</label>
+                <input type="password" id="a6">
+
+                <br><br><br>
+
+                <b style="font-size:larger;">Choose ur gender</b>
+                <br>
+
+                <input type="radio" name="gender" id="a7" value="Male" checked>
+                <label for="a7">Male</label> <br>
+
+
+                <input type="radio" name="gender" id="a8" value="fMale">
+                <label for="a8">Female</label>
+
+                <br><br><br><br>
+
+                <b style="font-size:larger;">Skills</b> <br>
+                <input type="checkbox" name="Skills" id="a9" value="Student" checked>
+                <label for="a9">Student</label> <br>
+
+                <input type="checkbox" name="Skills" id="a10" value="Graduated">
+                <label for="a10">Graduate</label>
+
+                <br><br><br>
+
+                <b id="a11" style="font-size:larger;">Your Group</b> <br>
+                <select name="select" id="a11">
+
+                    <optgroup label="Group1">
+                        <option value="G1.1">Group1.1</option>
+                    </optgroup>
+
+                    <optgroup label="Group2">
+                        <option value="G2.1">Group2.1</option>
+                        <option value="G2.2">Group2.2</option>
+                    </optgroup>
+
+                    <optgroup label="Group1">
+                        <option value="G3.1">Group3.1</option>
+                        <option value="G3.2">Group3.2</option>
+                        <option value="G3.3">Group3.3</option>
+                    </optgroup>
+
+                    <optgroup label="Name of School">
+                        <option value="AUUC" selected>AUC</option>
+                    </optgroup>
+
+                </select>
+                <br><br>
+
+                <button type="submit" style="background-color: black;color: aliceblue;font-size: large;">SUBMIT</button>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
